@@ -1,0 +1,34 @@
+body {
+    background-color: #EFEAD8;
+}
+
+.box {
+    background-color: #5F7161;
+    width: 200px;
+    height: 200px;
+    /* line height untuk center vertically teksnya (>= height), height harus diset dulu */
+    line-height: 190px;
+    color: #5F7161;
+    /* margin auto bikin center boxnya*/
+    margin: auto;
+    margin-top: 10%;
+    /* margin-bottom: 10%; */
+    /* padding: 50px; */
+    /* text align buat center teksnya */
+    text-align: center;
+
+}
+
+p {
+    background-color: #D0C9C0;
+    font-size: 10px;
+    /* untuk ngeset vertical align */
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    border: 2px dotted #6D8B74;
+    /* margin untuk selisih luar */
+    margin: 10px;
+    /* padding untuk selisih dalam */
+    padding: 10px;
+}
